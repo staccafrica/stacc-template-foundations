@@ -15,9 +15,10 @@ Built on the [Stacc Foundations roadmap](https://app.getstacc.org/learn/foundati
 
 ## What Stacc checks
 
-Required files: `README.md`, `run.sh`, `requirements.txt`, `src/ingest.py`, `src/clean.py`, `tests/test_clean.py`, `sql/analysis.sql`, `analysis/findings.md`, `AI_USE.md`.
-Your latest commit must pass the GitHub Actions workflow in this repository, and the repository must show a merged pull request.
-Replace this file with your own README. It needs sections named Question, Data, Reproduce and Limitations.
+Required files: `README.md`, `run.sh`, `requirements.txt`, `src/ingest.py`, `src/clean.py`, `tests/test_clean.py`, `sql/analysis.sql`, `analysis/findings.md`, `AI_USE.md`, `tests/test_ingest.py`, `analysis/reproduction_checks.md`, `.github/workflows/publish.yml`.
+Your latest commit must pass the GitHub Actions assessment job named `test` in this repository, and the repository must show a merged pull request.
+Replace this file with your own README. It needs sections named Question, Data, Reproduce, Limitations and Walkthrough.
+Walkthrough must link your HTTPS demonstration. Include analysis/reproduction_checks.md with guided/independent case inputs, expected results, actual results and revisions.
 
 ## Sources
 
